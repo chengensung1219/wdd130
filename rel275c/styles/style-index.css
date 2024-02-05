@@ -84,6 +84,7 @@ main section{
 }
 body{
     background-color: white; 
+    margin: 0 auto;
     text-align: center;
 }
 footer{
