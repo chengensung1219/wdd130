@@ -10,6 +10,7 @@ header{
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    text-align: center;
 }
 nav {
     background-color: white;
@@ -18,20 +19,20 @@ nav {
     font-size: 1.2em;
     font-weight: bold;
   }
-nav  {
+nav {
     list-style-type: none;
     display: flex;
 }
-nav a {
+nav a{
     padding:1em;
     min-width: 120px;
     text-decoration: none;
     padding: 20px;
 }
-nav a:link, nav a:visited {
+nav a:link, nav a:visited{
     color: black;
 }
-nav a:hover {
+nav a:hover{
     color: white;
     background-color: #598987;
 }
@@ -39,7 +40,7 @@ nav a:hover {
     text-align: center;
 }
 #hero-img{
-    width: 1600px;
+    width: 100%;
     padding-top: 100px;
 }
 .home-title{
@@ -73,8 +74,14 @@ h4{
     padding-bottom: 30px;
     font-size: 25px
 }
+#creation-img{
+    width: 30%;
+}
 #fall-img{
-    width: 1200px
+    width: 75%;
+}
+#natural-man-img{
+    width: 75%;
 }
 .button-box{
     text-align: center;
@@ -84,8 +91,6 @@ main section{
 }
 body{
     background-color: white; 
-    margin: 0 auto;
-    text-align: center;
 }
 footer{
     color: #598987;
@@ -97,5 +102,5 @@ footer p{
     font-size: 1.2em;
 }
 .icon{
-    width: 80px;
+    width: 5%;
 }
