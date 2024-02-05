@@ -1,0 +1,110 @@
+header{
+    background-color: white;
+    position:fixed;
+    top:0;
+    width:100%;
+}
+.logo{
+    width: 40px;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav {
+    background-color: white;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+nav  {
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 20px;
+}
+nav a:link, nav a:visited {
+    color: black;
+}
+nav a:hover {
+    color: white;
+    background-color: #598987;
+}
+#hero-box{
+    text-align: center;
+}
+#hero-img{
+    width: 1600px;
+    padding-top: 100px;
+}
+.home-title{
+    color: black;
+    padding-top: 40px;
+    font-size: 30px;
+}
+#prophet{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    padding-top: 60px;
+}
+h4{
+    color: black;
+    margin: auto;
+    width: 35%;
+    padding-top: 5px;
+    line-height: 2;
+    font-size: 18px
+}
+.h4{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+#hero-msg h1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+.four-img{
+    width: 640px;
+}
+.h2{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-size: 25px
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+body{
+    background-color: white; 
+}
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding: 40px;
+}
+footer{
+    color: black;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+footer p{
+    font-size: 1.2em;
+}
+.icon{
+    width: 80px;
+}
