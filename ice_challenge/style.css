@@ -1,0 +1,62 @@
+body{
+    max-width: 1600px;
+    display: block;
+    margin: auto;
+}
+#main_img{
+    text-align: center;
+    width: 100%;
+    background-color: dimgrey;
+    display: block;
+}
+h1{
+    display: block;
+    max-width: 1600px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 20px;
+    left: auto;
+    right: auto;
+    font-size: 300%;
+    text-align: center;
+}
+.image_bar{
+    background-color: dimgrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#desk{
+    display: block;
+    border-radius: 50%;
+    width: 60%;
+    margin: auto;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    border: 0.4cm solid #2A3439;
+}
+
+#logo{
+    display: block;
+    border-radius: 50%;
+    width: 60%;
+    margin: auto;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    border: 0.4cm solid #2A3439;
+}
+
+#person{
+    display: block;
+    border-radius: 50%;
+    width: 60%;
+    margin: auto;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    border: 0.4cm solid #2A3439;
+}
+p{
+    text-align: center;
+    font-size: 1cm;
+    font-weight: 900;
+}
