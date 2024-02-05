@@ -41,7 +41,7 @@ nav a:hover {
 }
 #hero-img{
     padding-top: 100px;
-    width: 1600px;
+    width: 100%;
 }
 .home-title{
     color: black;
@@ -67,7 +67,7 @@ h4{
     text-align: center;
 }
 .four-img{
-    width: 640px;
+    width: 40%;
 }
 .h2{
     padding-top: 30px;
