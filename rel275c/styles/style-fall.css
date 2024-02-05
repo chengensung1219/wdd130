@@ -10,6 +10,7 @@ header{
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    text-align: center;
 }
 nav {
     background-color: white;
@@ -17,8 +18,7 @@ nav {
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
-}
-nav  {
+    width: 100%;
     list-style-type: none;
     display: flex;
 }
@@ -39,19 +39,13 @@ nav a:hover {
     text-align: center;
 }
 #hero-img{
-    width: 1600px;
+    width: 100%;
     padding-top: 100px;
 }
 .home-title{
     color: black;
     padding-top: 40px;
     font-size: 30px;
-}
-#prophet{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
 }
 h4{
     color: black;
@@ -62,8 +56,17 @@ h4{
     font-size: 18px
 }
 #h4{
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 50px;
+    width: 50%;
+}
+.h4{
+    color: black;
+    margin: auto;
+    width: 50%;
+    padding-top: 5px;
+    line-height: 2;
+    font-size: 18px
 }
 #hero-msg h1{
     text-align: center;
@@ -71,8 +74,8 @@ h4{
 #hero-msg h4{
     text-align: center;
 }
-.four-img{
-    width: 640px;
+#adam-and-eve-img{
+    width: 55%;
 }
 .h2{
     padding-top: 40px;
@@ -88,13 +91,6 @@ main section{
 body{
     background-color: white; 
 }
-video{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    padding: 40px;
-}
 footer{
     color: black;
     background-color: white;
@@ -105,5 +101,5 @@ footer p{
     font-size: 1.2em;
 }
 .icon{
-    width: 80px;
+    width: 5%;
 }

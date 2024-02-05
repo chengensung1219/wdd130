@@ -18,10 +18,9 @@ nav {
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
-}
-nav  {
     list-style-type: none;
     display: flex;
+    width: 100%;
 }
 nav a {
     padding:1em;
@@ -75,25 +74,25 @@ h4{
     text-align: center;
 }
 .one-img{
-    width: 40%;
+    width: 50%;
 }
 .two-img{
-    width: 40%;
+    width: 50%;
 }
 .three-img{
-    width: 40%;
+    width: 50%;
 }
 .four-img{
-    width: 40%;
+    width: 50%;
 }
 .five-img{
-    width: 40%;
+    width: 50%;
 }
 .six-img{
-    width: 40%;
+    width: 50%;
 }
 .seven-img{
-    width: 40%;
+    width: 50%;
 }
 .h2{
     padding-top: 30px;
@@ -126,5 +125,5 @@ footer p{
     font-size: 1.2em;
 }
 .icon{
-    width: 80px;
+    width: 5%;
 }

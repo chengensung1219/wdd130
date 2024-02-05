@@ -17,8 +17,7 @@ nav {
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
-}
-nav  {
+    width: 100%;
     list-style-type: none;
     display: flex;
 }
@@ -39,7 +38,7 @@ nav a:hover {
     text-align: center;
 }
 #hero-img{
-    width: 1600px;
+    width: 100%;
     padding-top: 100px;
 }
 .home-title{
@@ -51,7 +50,7 @@ nav a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 15%;
+    width: 20%;
     padding-top: 60px;
 }
 h4{
@@ -64,6 +63,7 @@ h4{
 }
 .h4{
     padding-top: 30px;
+    width: 50%;
     padding-bottom: 50px;
 }
 #hero-msg h1{
@@ -72,8 +72,8 @@ h4{
 #hero-msg h4{
     text-align: center;
 }
-.four-img{
-    width: 640px;
+.natural-man-img{
+    width: 50%;
 }
 .h2{
     padding-top: 40px;
@@ -89,13 +89,6 @@ main section{
 body{
     background-color: white; 
 }
-video{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    padding: 40px;
-}
 footer{
     color: black;
     background-color: white;
@@ -106,5 +99,5 @@ footer p{
     font-size: 1.2em;
 }
 .icon{
-    width: 80px;
+    width: 5%;
 }
