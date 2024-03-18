@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+.first-section{
+    display: grid;
+    grid-template-columns: 1fr 60px 100px 300px 100px 40px 1fr;
+    grid-template-rows: 1fr;
+}
+.first-section img{
+    padding-left: 20px;
+    width: 40px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+}
+.first-section h3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    align-self: center;
+    color: #292929;
+}
+.first-section p{
+    grid-row: 1/2;
+    grid-column: 5/6;
+    align-self: center;
+    color: gray;
+}
+.first-section i{
+    grid-row: 1/2;
+    grid-column: 6/7;
+    align-self: center;
+    color: gray;
+}
+.post{
+    width: 600px;
+}
+
+.second-section{
+    display: grid;
+    grid-template-columns: 1fr 40px 40px 40px 40px 360px 40px 40px 1fr;
+    grid-template-rows: 1fr;
+}
+
