@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 header{
     width: 100%;
@@ -20,6 +21,8 @@ nav a{
     min-width: 80px;
     text-decoration: none;
     transition: .5s;
+    font-family: 'Anta', Courier, monospace;
+    font-weight: bold;
 }   
     
 nav a:hover {
@@ -47,6 +50,123 @@ body{
     margin: auto;
     text-align: center;
 }
+.top-section{
+    margin: 50px;
+    position: absolute;
+    top: 80px;
+    left: 0%;
+    right: 0%;
+}
+.top-section p{
+    font-family: 'Roboto', Courier, monospace;
+    font-size: 1.2em;
+    color: white;
+    margin-top: -10px;
+    padding-bottom: 20px;
+    font-weight: 450;
+}
+#see-more{
+    background-color: white;
+    color: #292929;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: 'Anta', Courier, monospace;
+    transform: scale(1) translateY(-5px);
+    transition: .5s;
+    font-weight: bold;
+}
+#see-more:hover{
+    background-color: #292929;
+    color: white;
+}
+#purpose{
+    display: grid;
+    grid-template-columns: 15% 1fr 60px 1fr 15%;
+    grid-template-rows: 50px 50px 1fr 50px;
+    margin: 50px;
+}
+#purpose img{
+    width: 350px;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    align-self: center;
+}
+#purpose h2{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    align-self: center;
+}
+#purpose p{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    align-self: center;
+    font-size: 20px;
+    padding-top: 30px;
+    font-family: 'Roboto', Courier, monospace;
+}
+#about-us{
+    background-color: #292929;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: 'Anta', Courier, monospace;
+    transform: scale(1) translateY(-5px);
+    transition: .5s;
+}
+#about-us:hover{
+    background-color: black;
+    color: white;
+    
+}
+h1{
+    font-family: 'Anta', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+}
+h2{
+    padding-top: 50px;
+    font-family: 'Anta', Courier, monospace;
+    font-weight: bold;
+    color: #292929;
+    font-size: 40px;
+}
+
+.small-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 80px 1fr 1fr;
+    grid-template-rows: 1fr 50px 1fr;
+    padding-bottom: 50px;
+}
+.offer-photos{
+    width: 400px;
+}
+.section1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+}
+.section2{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    align-self: center;
+}
+.section3{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: center;
+}
+.section4{
+    grid-column: 4/5;
+    grid-row: 3/4;
+    align-self: center;
+}
 i{
     color: #e4e2dd;
     font-size: 35px;
@@ -65,6 +185,7 @@ footer{
 }
 footer p{
     font-size: 1em;
+    font-family: 'Anta', Courier, monospace;
 }
 footer a{
     color: #e4e2dd;
