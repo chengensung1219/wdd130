@@ -40,6 +40,8 @@ nav a:hover {
 .logo{
     width: 100px;
     padding: 10px;
+    margin: 0 auto;
+    align-self: center;
 }
 .cover_img{
     width: 100%;
@@ -145,9 +147,10 @@ h2{
     grid-template-columns: 1fr 1fr 80px 1fr 1fr;
     grid-template-rows: 1fr 50px 1fr;
     padding-bottom: 50px;
+    align-items: center;
 }
 .offer-photos{
-    width: 400px;
+    width: 400px
 }
 .section1{
     grid-column: 2/3;
@@ -176,6 +179,10 @@ i{
     padding-left: 5px;
     padding-right: 5px;
 }
+i:hover{
+    color: #0ef;
+    text-decoration: none;
+}
 footer{
     height: 100px;
     color: white;
@@ -197,4 +204,59 @@ footer a{
 footer a:hover{
     color: #0ef;
     text-decoration: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    body{
+        margin: auto;
+        text-align: center;
+    }
+    #top-div, #purpose, #map, .small-main, footer{
+        display: block;
+        height: auto;
+    }
+    nav {
+        display: block;
+        width: 200px;
+        margin: 0;
+        padding: 0;
+        margin: 0 auto;
+    }
+    nav a {
+        display: block;
+        height: auto;
+    }
+
+    #top-div {
+        margin-top: 0;
+    }
+    .top-section {
+        margin-top: 50px;
+        position: absolute;
+        top: 300px;
+    }
+    .top-section p {
+        display: none;
+    }
+    .home-title {
+        font-size: 35px;
+    }
+    .section1, .section2, .section3, .section4 { 
+        margin: 50px auto;
+        width: 100%;
+    }
+    .map{
+        width: 100%;
+    }
+    footer {
+        display: block;
+        width: 400px;
+        margin: 0;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 25px;
+        padding: 10px;
+        border-radius: 10px;
+    }
 }
