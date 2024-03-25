@@ -162,7 +162,7 @@ body{
     margin: 50px;
 }
 #purpose img{
-    width: 350px;
+    width: 80%;
     grid-column: 2/3;
     grid-row: 2/4;
     align-self: center;
@@ -339,6 +339,9 @@ footer a:hover{
     }
     .logo{
         padding: 0;
+    }
+    #purpose img{
+        width: 45%;
     }
     #top-div {
         margin-top: 0;
