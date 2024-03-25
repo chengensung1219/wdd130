@@ -15,7 +15,7 @@ header{
     color: white;
     text-align: center;
     font-size: 1.2em;
-    column-gap: 5px;
+    column-gap: 10px;
 }
 .left-nav a{
     color: white;
@@ -44,7 +44,7 @@ header{
     color: white;
     text-align: center;
     font-size: 1.2em;
-    column-gap: 5px;
+    column-gap: 10px;
 }
 .right-nav a{
     color: white;
@@ -109,7 +109,6 @@ header{
     align-self: center;
     z-index: 2;
     padding: 20px;
-    align-self: center;
 }
 .cover_img{
     width: 100%;
@@ -284,32 +283,73 @@ footer a:hover{
         margin: auto;
         text-align: center;
     }
-    #top-div, #purpose, #map, .small-main, footer{
+    header, #top-div, #purpose, #map, .small-main, footer{
         display: block;
         height: auto;
     }
-    nav {
+    .left-nav {
         display: block;
         width: 200px;
-        margin: 0;
-        padding: 0;
+        padding-top: 5px;
         margin: 0 auto;
         padding-bottom: 20px;
     }
-    nav a {
+    .right-nav {
+        display: block;
+        width: 200px;
+        padding-top: 10px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .left-nav a {
+        display: block;
+        height: auto;
+        align-self: center;
+    }
+    .right-nav a {
         display: block;
         height: auto;
     }
+    .tag1{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag2{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag3{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag4{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag5{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag6{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
     .cover_img{
-        margin-top: 0;
+        margin-top: -10px;
+    }
+    .logo{
+        padding: 0;
     }
     #top-div {
         margin-top: 0;
     }
     .top-section {
-        margin-top: 100px;
+        margin-top: 50px;
         position: absolute;
         top: 300px;
+    }
+    .top-section p {
+        font-size: 1.2em;
     }
     .home-title {
         font-size: 35px;
@@ -324,7 +364,6 @@ footer a:hover{
     footer {
         display: block;
         width: 400px;
-        margin: 0;
         padding: 0;
         margin: 0 auto;
         margin-top: 25px;
