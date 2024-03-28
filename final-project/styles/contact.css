@@ -209,7 +209,7 @@ main p{
 
 .container {
     background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
+    padding: 15px 25px 15px 20px;
     border: 1px solid lightgrey;
     border-radius: 20px;
     margin-bottom: 80px;
@@ -246,13 +246,14 @@ label {
     grid-column: 1/2;
     grid-row: 2/3;
     align-self: center;
-    width: 90%;
+    width: 86%;
+
 }
 #ent-lname{
     grid-column: 2/3;
     grid-row: 2/3;
     align-self: center;
-    width: 90%;
+    width: 86%;
 }
 #lbl-email{
     grid-column: 1/2;
@@ -264,7 +265,7 @@ label {
     grid-column: 1/3;
     grid-row: 4/5;
     align-self: center;
-    width: 95%;
+    width: 93%;
 }
 #lbl-sub{
     grid-column: 1/2;
@@ -276,7 +277,7 @@ label {
     grid-column: 1/3;
     grid-row: 6/7;
     align-self: center;
-    width: 95%;
+    width: 93%;
 }
 #lbl-msg{
     grid-column: 1/2;
@@ -288,7 +289,7 @@ label {
     grid-column: 1/3;
     grid-row: 8/9;
     align-self: center;
-    width: 95%;
+    width: 93%;
 }
 
 .btn {
@@ -343,8 +344,104 @@ footer a:hover{
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
+    body{
+        margin: auto;
+    }
+    header, footer{
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+    .left-nav {
+        display: block;
+        width: 200px;
+        padding-top: 5px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .right-nav {
+        display: block;
+        width: 200px;
+        padding-top: 10px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .left-nav a {
+        display: block;
+        height: auto;
+        align-self: center;
+    }
+    .right-nav a {
+        display: block;
+        height: auto;
+    }
+    .tag1{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag2{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag3{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag4{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag5{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag6{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .cover_img{
+        margin-top: -10px;
+    }
+    .logo{
+        padding: 0;
+    }
+    .top-section {
+        margin-top: 50px;
+        position: absolute;
+        top: 300px;
+    }
+    .top-section p {
+        font-size: 1.2em;
+    }
+    .home-title {
+        font-size: 35px;
+    }
     .row {
         flex-direction: column-reverse;
+    }
+    .btn{
+        padding: 24px;
+    }
+    .contact-form, .col-75 {
+        -ms-flex: 75%; /* IE10 */
+        flex: 75%;
+        padding: 0 5%;
+    }
+    #ent-fname{
+        width: 86%;
+    
+    }
+    #ent-lname{
+        width: 86%;
+    }
+    footer {
+        display: block;
+        width: 95%;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 25px;
+        padding: 10px;
+        border-radius: 10px;
     }
 }
