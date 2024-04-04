@@ -144,7 +144,8 @@ h1{
     color: white;
     margin-top: -20px;
     padding-bottom: 20px;
-    font-weight: bold;    
+    font-weight: bold;
+    text-align: center;
 }
 #fill-out{
     background-color: white;
@@ -170,7 +171,7 @@ h1{
     font-size: 30px;
     margin-top: 70px;
 }
-main p{
+#sub-title{
     padding-left: 8%;
     font-family:'Anta', Courier, monospace;
     font-weight: 500;

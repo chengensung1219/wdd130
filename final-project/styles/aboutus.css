@@ -112,12 +112,55 @@ header{
 }
 .cover_img{
     width: 100%;
-    margin-top: -150px;
+    margin-top: -125px;
+    margin-left: auto;
 }
 body{
     max-width: 1600px;
     margin: auto;
+}
+.top-section{
+    margin: 50px;
+    position: absolute;
+    top: 80px;
+    left: 0%;
+    right: 0%;
     text-align: center;
+}
+.home-title{
+    font-size: 3.5em;
+}
+h1{
+    font-family: 'Anta', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+}
+.top-section p{
+    font-family:'Anta', Courier, monospace;
+    font-size: 1.8em;
+    color: white;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+#fill-out{
+    background-color: white;
+    color: #292929;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: 'Anta', Courier, monospace;
+    transform: scale(1) translateY(-5px);
+    transition: .5s;
+    font-weight: bold;
+}
+#fill-out:hover{
+    background-color: #0ef;
+    color: white;
 }
 i{
     color: white;
