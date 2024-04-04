@@ -5,11 +5,7 @@ html {
 *{
     box-sizing: border-box;
 }
-  
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 header{
     display: grid;
     width: 100%;
@@ -119,6 +115,64 @@ header{
     align-self: center;
     z-index: 2;
     padding: 20px;
+}
+.cover_img{
+    width: 100%;
+    margin-top: -100px;
+}
+body{
+    max-width: 1600px;
+    margin: auto;
+    text-align: center;
+    font-family:'Anta', Courier, monospace;
+}
+.top-section{
+    margin: 50px;
+    position: absolute;
+    top: 80px;
+    left: 0%;
+    right: 0%;
+}
+.home-title{
+    font-size: 3.5em;
+}
+.top-section p{
+    font-family:'Anta', Courier, monospace;
+    font-size: 1.8em;
+    color: white;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+#see-more{
+    background-color: white;
+    color: #292929;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: 'Anta', Courier, monospace;
+    transform: scale(1) translateY(-5px);
+    transition: .5s;
+    font-weight: bold;
+}
+#see-more:hover{
+    background-color: #0ef;
+    color: white;
+}
+h1{
+    font-family: 'Anta', Courier, monospace;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+}
+h2{
+    padding-top: 50px;
+    font-family: 'Anta', Courier, monospace;
+    font-weight: bold;
+    color: #292929;
+    font-size: 40px;
 }
 main{
     text-align: center;
