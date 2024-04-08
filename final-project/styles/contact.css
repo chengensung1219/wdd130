@@ -431,6 +431,18 @@ footer a:hover{
     #ent-lname{
         width: 86%;
     }
+    .btn{
+        background-color: #292929;
+        color: white;
+        padding: 12px;
+        border: none;
+        width: 100%;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 17px;
+        margin: auto;
+        margin-top: 20px;
+    }
     footer {
         display: block;
         width: 95%;
