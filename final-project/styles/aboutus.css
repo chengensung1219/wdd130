@@ -171,7 +171,6 @@ h1{
 }
 #bottom-section p{
     font-family: 'Anta', Courier, monospace;
-    font-weight: 550;
     font-size: 1.15em;
     grid-column: 3/4;
     grid-row: 2/3;
