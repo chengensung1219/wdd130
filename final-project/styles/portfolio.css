@@ -312,6 +312,23 @@ footer a:hover{
     .logo{
         padding: 0;
     }
+    .top-section {
+        margin-top: 0px;
+        position: absolute;
+        top: 300px;
+    }
+    .top-section p {
+        font-size: 1.2em;
+    }
+    .home-title {
+        font-size: 30px;
+    }
+    #see-more{
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
     footer {
         display: block;
         width: 95%;

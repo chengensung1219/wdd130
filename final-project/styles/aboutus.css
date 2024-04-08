@@ -163,10 +163,10 @@ h1{
 }
 #bottom-section{
     display: grid;
-    grid-template-columns: 1fr 405px 405px 1fr 1fr;
+    grid-template-columns: 1fr 405px 405px 564px 1fr;
     grid-template-rows: 270px 270px 270px;
-    padding: 20px;
-    margin: 100px 100px 40px 100px;
+    padding-top: 20px;
+    margin: 50px 50px 50px 50px;
     gap: 15px;
 }
 #bottom-section p{
@@ -264,4 +264,110 @@ footer a{
 footer a:hover{
     color: #0ef;
     text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        margin: auto;
+        text-align: center;
+    }
+    header, .top-section, #bottom-section, footer{
+        display: block;
+        height: auto;
+    }
+    .left-nav {
+        display: block;
+        width: 200px;
+        padding-top: 5px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .right-nav {
+        display: block;
+        width: 200px;
+        padding-top: 10px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .left-nav a {
+        display: block;
+        height: auto;
+        align-self: center;
+    }
+    .right-nav a {
+        display: block;
+        height: auto;
+    }
+    .tag1{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag2{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag3{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag4{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .cover_img{
+        margin-top: -10px;
+    }
+    .logo{
+        padding: 0;
+    }
+    .top-section {
+        margin-top: 0px;
+        position: absolute;
+        top: 300px;
+    }
+    .top-section p {
+        font-size: 1.2em;
+    }
+    .home-title {
+        font-size: 30px;
+    }
+    #know-more{
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-top: 40px;
+        border-radius: 10px;
+    }
+    .main-img{
+        width: 95%;
+        height: 95%;
+    }
+    .first-img{
+        width: 95%;
+        height: 95%;
+    }
+    .second-img{
+        width: 95%;
+        height: 95%;
+    }
+    .third-img{
+        width: 95%;
+        height: 95%;
+    }
+    .forth-img{
+        width: 95%;
+        height: 95%;
+    }
+    .fifth-img{
+        width: 95%;
+        height: 95%;
+    }
+    footer {
+        display: block;
+        width: 95%;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 25px;
+        padding: 10px;
+        border-radius: 10px;
+    }
 }
