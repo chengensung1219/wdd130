@@ -10,7 +10,7 @@ header{
 }
 .left-nav{
     display: grid;
-    grid-template-columns: 1f 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-column: 1/2;
     width: 100%;
     list-style-type: none;
@@ -28,6 +28,7 @@ header{
     transition: .5s;
     font-family: 'Anta', Courier, monospace;
     font-weight: bold;
+    max-width: 180px;
 }
 .left-nav a:hover {
     color: #0ef;
@@ -39,7 +40,7 @@ header{
 }
 .right-nav{
     display: grid;
-    grid-template-columns: 1f 1fr 1fr;
+    grid-template-columns: 1f 1fr;
     grid-column: 3/4;
     width: 100%;
     list-style-type: none;
@@ -57,6 +58,7 @@ header{
     transition: .5s;
     font-family: 'Anta', Courier, monospace;
     font-weight: bold;
+    max-width: 180px;
 }
 .right-nav a:hover {
     color: #0ef;
@@ -78,31 +80,25 @@ header{
     display: grid;
     grid-column: 1/2;
     align-self: center;
+    margin: auto;
 }
 .tag2{
     display: grid;
     grid-column: 2/3;
     align-self: center;
+    margin: auto;
 }
 .tag3{
     display: grid;
-    grid-column: 3/4;
+    grid-column: 1/2;
     align-self: center;
+    margin: auto;
 }
 .tag4{
     display: grid;
-    grid-column: 1/2;
-    align-self: center;
-}
-.tag5{
-    display: grid;
     grid-column: 2/3;
     align-self: center;
-}
-.tag6{
-    display: grid;
-    grid-column: 3/4;
-    align-self: center;
+    margin: auto;
 }
 .logo{
     grid-column: 2/3;
