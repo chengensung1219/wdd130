@@ -163,7 +163,7 @@ h1{
 }
 #bottom-section{
     display: grid;
-    grid-template-columns: 1fr 405px 405px 564px 1fr;
+    grid-template-columns: 1fr 405px 405px 405px 1fr;
     grid-template-rows: 270px 270px 270px;
     padding-top: 20px;
     margin: 50px 50px 50px 50px;
