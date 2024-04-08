@@ -11,6 +11,7 @@ header{
     width: 100%;
     background-color: #292929;
     grid-template-columns: 1fr 300px 1fr;
+    font-size: 1.2em;
 }
 .left-nav{
     display: grid;
@@ -255,4 +256,69 @@ footer a{
 footer a:hover{
     color: #0ef;
     text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        margin: auto;
+        text-align: center;
+    }
+    header, footer{
+        display: block;
+        height: auto;
+    }
+    .left-nav {
+        display: block;
+        width: 200px;
+        padding-top: 5px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .right-nav {
+        display: block;
+        width: 200px;
+        padding-top: 10px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .left-nav a {
+        display: block;
+        height: auto;
+        align-self: center;
+    }
+    .right-nav a {
+        display: block;
+        height: auto;
+    }
+    .tag1{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag2{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag3{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .tag4{
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .cover_img{
+        margin-top: -10px;
+    }
+    .logo{
+        padding: 0;
+    }
+    footer {
+        display: block;
+        width: 95%;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 25px;
+        padding: 10px;
+        border-radius: 10px;
+    }
 }

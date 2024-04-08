@@ -5,6 +5,7 @@ header{
     width: 100%;
     background-color: #292929;
     grid-template-columns: 1fr 300px 1fr;
+    font-size: 1.2em;
 }
 .left-nav{
     display: grid;
@@ -141,7 +142,7 @@ h1{
     font-weight: bold;
     text-align: center;
 }
-#fill-out{
+#know-more{
     background-color: white;
     color: #292929;
     text-decoration: none;
@@ -154,9 +155,79 @@ h1{
     transition: .5s;
     font-weight: bold;
 }
-#fill-out:hover{
+#know-more:hover{
     background-color: #0ef;
     color: white;
+}
+.bottom-section{
+    display: grid;
+    grid-template-columns: 1fr 405px 405px 1fr 1fr;
+    grid-template-rows: 270px 270px 270px;
+    margin: 100px 100px 40px 100px;
+    gap: 15px;
+}
+.bottom-section p{
+    font-family: 'Anta', Courier, monospace;
+    font-weight: 550;
+    font-size: 1.15em;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    align-self: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 1.3em;
+    text-align: justify;
+}
+.first-img{
+    height: 270px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.second-img{
+    height: 270px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.third-img{
+    height: 270px;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.forth-img{
+    height: 270px;
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.fifth-img{
+    height: 270px;
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.main-img{
+    height: 840px;
+    grid-row: 1/4;
+    grid-column: 4/5;
+}
+#portfolio{
+    background-color: #292929;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-family: 'Anta', Courier, monospace;
+    transform: scale(1) translateY(-5px);
+    transition: .5s;
+    font-weight: bold;
+}
+#portfolio:hover{
+    background-color: #0ef;
+    color: white;
+}
+.portfilio-button{
+    margin-bottom: 100px;
+    text-align: center;
 }
 i{
     color: white;
